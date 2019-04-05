@@ -9,10 +9,10 @@ def just_a_test():
     driver.get("http://fxcszx.hitwh.edu.cn/index.php/Home/Index/index.html")
 
     elem1 = driver.find_element_by_xpath("//input[@id='username']")
-    elem1.send_keys("160810309")
+    elem1.send_keys("x")
     
     elem2 = driver.find_element_by_xpath("//input[@id='password']")
-    elem2.send_keys("Lw4SLhpniXzb7xg")
+    elem2.send_keys("x")
     
     select = driver.find_element_by_xpath("//option[@value='2']")
     select.click()

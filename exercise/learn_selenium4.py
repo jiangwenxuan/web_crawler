@@ -22,18 +22,13 @@ def just_a_test(id_num, password):
     elem4 = driver.find_element_by_xpath("//a[@href='/index.php/Home/Index/instrList/sid/4.html']")
     elem4.click()
 
-    elem5 = driver.find_element_by_xpath("//a[@href='/index.php/Home/Order/orderInstr/instr_id/16.html']")
+    elem5 = driver.find_element_by_xpath("//a[@href='/index.php/Home/Order/orderInstr/instr_id/13.html']")
     elem5.click()
 
     for i in range(1, 4):
         
         elem6 = driver.find_element_by_xpath("//td[@class='info']")
         elem6.click()
-
-##    elem7 = driver.switch_to.alert
-##    time.sleep(1)
-##    print(elem7.text)
-##    elem7.accept()
         all_handles = driver.window_handles
         current_window = driver.current_window_handle
         for handle in all_handles:
@@ -43,22 +38,21 @@ def just_a_test(id_num, password):
                 time.sleep(0.5)
                 elem7.click()
         driver.refresh()
-#    time.sleep(0.05)    
-#    elem7 = driver.find_element_by_xpath("//button[@id='modalsubmitbtn']")
-#    elem7.click()
 
-
-# if you want to order some other equipment, you can change these code
 """
+if you want to order some other equipment, you can change these code:
+
     for i in range(1, 9):
         driver.get("http://fxcszx.hitwh.edu.cn/index.php/Home/Index/instrList/sid/4/p/" + str(i) + "html")
         equipment_list = driver.find_elements_by_css_selector('h4.media-heading')
         for equipment in equipment_list:
             print(equipment.text)
 """
+
 # id_num and password are strings
-id_num = "1608"
-password = "XXXXXXXXXXXX"
+id_num = "1608xxxxxx"
+password = "xxxxxxxxxxxx"
+
 just_a_test(id_num, password)
 time.sleep(3)
 driver.quit()
