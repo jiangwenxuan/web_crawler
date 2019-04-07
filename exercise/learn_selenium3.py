@@ -57,8 +57,8 @@ def just_a_test(id_num, password):
             print(equipment.text)
 """
 # id_num and password are strings
-id_num = "1608"
-password = "XXXXXXXXXXXX"
+id_num = "1608xxx"
+password = "xxxxxx"
 just_a_test(id_num, password)
 time.sleep(3)
 driver.quit()
