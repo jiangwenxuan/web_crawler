@@ -1,6 +1,8 @@
 ﻿exercise里的learn_selenium4.py（要记住代码在自己电脑的路径，第6步有用）可以预约设备，如果想要在自己的电脑运行代码需要如下步骤：
 
-1.安装python：在官网下载即可：https://www.python.org/downloads/windows/，推荐安装3.7.3，之前没安装过可以参照安装教程：https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/0014316090478912dab2a3a9e8f4ed49d28854b292f85bb000（记住自己的python安装在哪里，第6步用）
+1.安装python：在官网下载即可：https://www.python.org/downloads/windows/，
+推荐安装3.7.3，之前没安装过可以参照安装教程
+https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/0014316090478912dab2a3a9e8f4ed49d28854b292f85bb000（记住自己的python安装在哪里，第6步用）
 
 2.安装selenium：安装教程：https://www.cnblogs.com/sandysun/p/7838113.html
 
