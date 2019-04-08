@@ -50,8 +50,8 @@ if you want to order some other equipment, you can change these code:
 """
 
 # id_num and password are strings
-id_num = "1608xxx"
-password = "xxxxxx"
+id_num = "1608XXX"
+password = "XXXXXX"
 
 just_a_test(id_num, password)
 time.sleep(3)
