@@ -8,11 +8,13 @@ https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c
 
 3.安装chrome浏览器：官网下载地址：https://www.google.cn/chrome/index.html
 
-4.安装chromedriver：下载地址（注意选择相应的版本）：https://sites.google.com/a/chromium.org/chromedriver/，下载之后解压到一个自己能记住的文件夹里（记住完整的路径，第5步用）
+4.安装chromedriver：下载地址（注意选择相应的版本）：https://sites.google.com/a/chromium.org/chromedriver/
+下载之后解压到一个自己能记住的文件夹里（记住完整的路径，第5步用）
 
 5.修改代码：第5行的路径修改成自己的chromedriver路径，第53，54行修改成自己在仪器预约网站的名字和密码
 
-6.定时运行python程序：https://cloud.tencent.com/developer/article/1200423，按照此教程把运行时间设置成00：00：01，learn_selenium4.py就会在那时自己运行啦！
+6.定时运行python程序：https://cloud.tencent.com/developer/article/1200423
+按照此教程把运行时间设置成00：00：01，learn_selenium4.py就会在那时自己运行啦！
 
 PS：下载之后如果不知道能不能预约，可以试运行一下，把25行的路径里的"....../13.html"修改成"....../16.html"，就会自动预约x射线衍射仪，这样可以看看程序是否成功运行，（别忘了之后取消x射线的预约，再把代码改回去）。
 
@@ -24,7 +26,8 @@ PS：下载之后如果不知道能不能预约，可以试运行一下，把25�
 
 其实爬虫也是可以进阶的，不要拘泥于爬虫。以下是一些进阶方向：
 
-1.多线程爬虫：书上的多线程讲的很浅，但是如果没学过《操作系统》，第一次可能会看不懂。可以看看：http://pages.cs.wisc.edu/~remzi/OSTEP/#book-chapters的第二大章：concurrency，那里讲了多线程的原理，我大概用了3周看了第二大章，之后多线程就容易理解了。
+1.多线程爬虫：书上的多线程讲的很浅，但是如果没学过《操作系统》，第一次可能会看不懂。可以看看：http://pages.cs.wisc.edu/~remzi/OSTEP/#book-chapters
+的第二大章：concurrency，那里讲了多线程的原理，我大概用了3周看了第二大章，之后多线程就容易理解了。
 
 2.处理验证码：处理验证码可以用别人的代码，但是想要进一步了解的话，需要一点点计算机视觉的知识（很少），如果对计算机视觉感兴趣的话，可以慢慢入门计算机视觉。不妨从《数字图像处理》开始，一点一点学习，每学期学一门课。
 
